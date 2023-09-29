@@ -85,18 +85,18 @@ main p {
   100% {margin-left: 0;}
 }
 
-/* Screen2 */
-.scream2 {
+/* screen2 */
+.screen2 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.scream2 h1 {
+.screen2 h1 {
   margin-bottom: 1.7rem;
 }
 
-.scream2 p {
+.screen2 p {
   display: flex;
   padding: 10px;
   justify-content: center;
@@ -118,7 +118,7 @@ main p {
   transform: translateX(2px) scale(1.2);
 }
 
-.scream2 img {
+.screen2 img {
   display: flex;
   width: 300px;
   height: 200px;
@@ -127,7 +127,7 @@ main p {
   align-items: center;
 }
 
-.scream2 button{
+.screen2 button{
   border:none;
 
   border-radius: 4px;
@@ -148,3 +148,8 @@ main p {
   margin-top: 1.7rem;
 }
 
+button:hover{
+  cursor: pointer;
+  background-color: #bb8211;
+  transition: background-color 0.5s;
+}
