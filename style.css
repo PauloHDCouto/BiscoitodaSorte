@@ -112,10 +112,14 @@ main p {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  animation: upMessage 2s ease-out forwards;
+}
 
-  transition: transform 3s;
-  transform: translateX(2) scale(0.3);
-  transform: translateX(2px) scale(1.2);
+@keyframes upMessage {
+  0% {
+    opacity: 0;
+    transform: translateY(16rem) scale(0.2);
+  }
 }
 
 .screen2 img {
